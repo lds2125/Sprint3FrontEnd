@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Cadastro from './components/cadastro';
+import Navbar from './components/navbar/Navbar';
+import Cadastro from './components/cadastro/cadastro';
 import SobreNos from './components/SobreNos';
 import Contato from './components/Contato';
 import JaSouClientePorto from './components/JaSouCliente';
