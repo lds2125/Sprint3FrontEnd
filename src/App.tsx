@@ -13,6 +13,7 @@ function App() {
         <Route path="/sobre-nos" element={<SobreNos />} />
         <Route path="/contato" element={<Contato />} />
         <Route path="/cliente-porto" element={<JaSouClientePorto />} />
+        <Route path="/" element={<Navbar />} />
       </Routes>
     </div>
   );
