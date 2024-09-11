@@ -1,4 +1,3 @@
-// src/components/Navbar.tsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +6,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-blue-600 p-4 flex justify-between items-center">
       <div className="flex items-center">
         <img
-          src="../img/logo.png" // Altere para o caminho correto da sua logo
+          src="../img/logo.png" 
           alt="PortoFix logo"
           className="w-10 h-10"
         />
