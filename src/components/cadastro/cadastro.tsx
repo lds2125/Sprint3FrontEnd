@@ -125,7 +125,7 @@ const Cadastro: React.FC = () => {
             type="text"
             value={cpfCnpj}
             onChange={(e) => {
-              setCpfCnpj(e.target.value.replace(/\D/g, '')); // Remove letras e caracteres não numéricos
+              setCpfCnpj(e.target.value.replace(/\D/g, ''));
               setCpfCnpjError('');
             }}
             className={`w-full p-2 border border-gray-300 rounded text-sm ${cpfCnpjError ? 'border-red-500' : ''}`}
