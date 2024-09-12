@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-blue-600 p-4 flex justify-between items-center">
       <div className="flex items-center">
         <img
-          src="../img/logo.png" 
+          src="../assets/portofix-logo.png" 
           alt="PortoFix logo"
           className="w-10 h-10"
         />
