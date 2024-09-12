@@ -26,7 +26,7 @@ const SobreNos: React.FC = () => {
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative w-full max-w-xs">
               <img
-                src="https://via.placeholder.com/400x300" // Substitua pela URL da imagem real
+                src="https://via.placeholder.com/400x300" 
                 alt="Sobre nós"
                 className="w-full h-full object-cover rounded-lg shadow-md"
               />
