@@ -58,7 +58,7 @@ const Cadastro: React.FC = () => {
     <div className="flex justify-center items-center h-screen relative bg-white">
       <Link to="/">
         <img
-          src="../img/Logo-Portofixpng.png"
+          src="../img/Portofixpng.png"
           alt="logo-portofix"
           className="w-[252px] absolute top-[44px] left-[26px] sm:w-[200px] sm:top-[20px] sm:left-[10px]"
         />
