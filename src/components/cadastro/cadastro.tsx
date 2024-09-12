@@ -137,7 +137,7 @@ const Cadastro: React.FC = () => {
             type="submit"
             className="w-full bg-blue-500 text-white p-2 rounded mt-4 flex justify-center items-center"
           >
-            <img src="../img/submit.png" alt="submit-button" className="w-6" />
+            Cadastrar
           </button>
         </form>
         {successMessage && (
