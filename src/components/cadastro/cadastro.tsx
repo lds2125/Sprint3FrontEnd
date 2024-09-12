@@ -31,7 +31,7 @@ const Cadastro: React.FC = () => {
       setTelefoneError('Telefone inválido!');
       return;
     }
-    
+
     console.log({ nomeCompleto, email, telefone, senha, confirmaSenha, cpfCnpj });
     setErrorMessage('');
     setCpfCnpjError('');
@@ -89,7 +89,7 @@ const Cadastro: React.FC = () => {
             required
           />
           {errorMessage && !validarEmail(email) && <p className="text-red-500 text-sm">{errorMessage}</p>}
-          
+
           <input
             type="tel"
             value={telefone}
@@ -102,7 +102,7 @@ const Cadastro: React.FC = () => {
             required
           />
           {telefoneError && <p className="text-red-500 text-sm">{telefoneError}</p>}
-          
+
           <input
             type="password"
             value={senha}
@@ -120,7 +120,7 @@ const Cadastro: React.FC = () => {
             required
           />
           {senha !== confirmaSenha && confirmaSenha && <p className="text-red-500 text-sm">As senhas não coincidem!</p>}
-          
+
           <input
             type="text"
             value={cpfCnpj}
@@ -132,12 +132,12 @@ const Cadastro: React.FC = () => {
             placeholder="CPF ou CNPJ (somente números)"
           />
           {cpfCnpjError && <p className="text-red-500 text-sm">{cpfCnpjError}</p>}
-          
+
           <button
             type="submit"
             className="w-full bg-blue-500 text-white p-2 rounded mt-4 flex justify-center items-center"
           >
-            <img src="../img/submit.png" alt="submit-button" className="w-6" />
+            Cadastrar
           </button>
         </form>
         {successMessage && (

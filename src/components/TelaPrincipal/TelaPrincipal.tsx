@@ -6,7 +6,7 @@ function HeroSection() {
     <section className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <h1 className="text-3xl font-bold text-gray-800">Fazer um orçamento nunca foi tão fácil!</h1>
       <p className="text-lg text-gray-600">Descubra a inovação com o novo PortoFix! Agora, seus orçamentos são inteligentes e feitos em questão de minutos.</p>
-      <img src={mecanicoImagem} alt="Descrição da imagem" className="w mt-4" /> {/* Imagem adicionada */}
+      <img src={mecanicoImagem} alt="Descrição da imagem" className="w-full h-3/4 object-cover mt-4" /> {/* Imagem adicionada */}
     </section>
   );
 }
