@@ -1,4 +1,3 @@
-// src/components/SobreNos.tsx
 import React from 'react';
 
 const SobreNos: React.FC = () => {
