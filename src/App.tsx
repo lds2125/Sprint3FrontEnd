@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
-import ContaUsuario from './components/ContaUsuario';
-import Contato from './components/Contato';
-import JaSouClientePorto from './components/JaSouCliente';
-import SobreNos from './components/SobreNos';
-import TelaPrincipal from './components/TelaPrincipal/TelaPrincipal';
-import Cadastro from './components/cadastro/cadastro';
+import ContaUsuario from './Pages/ContaUsuario/ContaUsuario';
+import Contato from './Pages/Contato/Contato';
+import JaSouClientePorto from './Pages/JaSouCliente/JaSouCliente';
+import SobreNos from './Pages/SobreNos/SobreNos';
+import TelaPrincipal from './Pages/TelaPrincipal/TelaPrincipal';
+import Cadastro from './Pages/cadastro/cadastro';
 import Navbar from './components/navbar/Navbar';
 
 function App() {
