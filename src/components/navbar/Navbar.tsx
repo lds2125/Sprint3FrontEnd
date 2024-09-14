@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Navbar: React.FC = () => {
   return (
     <nav className="bg-blue-600 p-4 flex justify-between items-center sticky top-0 z-50">
       <div className="flex items-center">
         <Link to="/" className="flex items-center">
           <img
-            src="../assets/portofix-logo.png" 
+            src="/PortoFix.png" 
             alt="PortoFix logo"
             className="w-10 h-10"
           />
