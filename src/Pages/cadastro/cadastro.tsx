@@ -41,7 +41,7 @@ const Cadastro: React.FC = () => {
     setSuccessMessage('Cadastro realizado com sucesso!');
 
 
-    navigate('/conta-usuario');
+    navigate('/cliente-porto');
   };
 
   const validarEmail = (email: string) => {
