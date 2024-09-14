@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Cadastro: React.FC = () => {
+  const navigate = useNavigate();
+
   const [nomeCompleto, setNomeCompleto] = useState('');
   const [email, setEmail] = useState('');
   const [telefone, setTelefone] = useState('');
@@ -37,6 +39,9 @@ const Cadastro: React.FC = () => {
     setCpfCnpjError('');
     setTelefoneError('');
     setSuccessMessage('Cadastro realizado com sucesso!');
+
+
+    navigate('/conta-usuario');
   };
 
   const validarEmail = (email: string) => {
@@ -56,17 +61,7 @@ const Cadastro: React.FC = () => {
 
   return (
     <div className="flex justify-center items-center h-screen relative bg-white">
-      <Link to="/">
-        <img
-          src="../img/Portofixpng.png"
-          alt="logo-portofix"
-          className="w-[252px] absolute top-[44px] left-[26px] sm:w-[200px] sm:top-[20px] sm:left-[10px]"
-        />
-      </Link>
       <section className="bg-white rounded-lg border border-[#ddd] shadow-md p-8 w-full max-w-lg relative">
-        <Link to="/" className="absolute top-4 left-4">
-          <img src="volta.png" alt="botao-voltar" className="w-5" />
-        </Link>
         <h1 className="text-2xl font-bold mb-2 text-center">Cadastro</h1>
         <h2 className="text-gray-600 mb-6 text-center text-base sm:text-sm">
           Preencha com seus dados corretamente para cadastrar-se.
@@ -94,7 +89,7 @@ const Cadastro: React.FC = () => {
             type="tel"
             value={telefone}
             onChange={(e) => {
-              setTelefone(e.target.value.replace(/\D/g, '')); // Remove letras e caracteres não numéricos
+              setTelefone(e.target.value.replace(/\D/g, ''));
               setTelefoneError('');
             }}
             className={`w-full p-2 border border-gray-300 rounded text-sm ${telefoneError ? 'border-red-500' : ''}`}

@@ -7,7 +7,7 @@ const SobreNos: React.FC = () => {
         <h1 className="text-4xl font-bold text-center text-blue-700 mb-12">Sobre Nós</h1>
 
         <div className="flex flex-col lg:flex-row items-center lg:items-start mb-12">
-          {/* Informações da Empresa */}
+
           <div className="lg:w-1/2 text-center lg:text-left lg:pr-8 mb-8 lg:mb-0">
             <h2 className="text-3xl font-semibold text-gray-800 mb-6">Quem Somos</h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
@@ -21,11 +21,11 @@ const SobreNos: React.FC = () => {
             </p>
           </div>
 
-          {/* Imagem da Empresa */}
+
           <div className="lg:w-1/2 flex justify-center">
             <div className="relative w-full max-w-xs">
               <img
-                src="https://via.placeholder.com/400x300" 
+                src="https://via.placeholder.com/400x300"
                 alt="Sobre nós"
                 className="w-full h-full object-cover rounded-lg shadow-md"
               />

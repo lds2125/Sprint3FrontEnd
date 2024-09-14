@@ -1,5 +1,5 @@
 import React from 'react';
-import mecanicoImagem from '../../assets/mecanico.png'; // Importe a imagem
+import mecanicoImagem from '../../assets/mecanico.png';
 
 function HeroSection() {
   return (

@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const JaSouClientePorto: React.FC = () => {
   const [email, setEmail] = useState('');
   const [senha, setSenha] = useState('');
+  const navigate = useNavigate();
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log({ email, senha });
-    
+
+    console.log('Login bem-sucedido');
+    navigate('/conta-usuario');
   };
 
   return (
-    
     <div className="flex justify-center items-center h-screen bg-white">
       <div className="bg-white rounded-lg border border-gray-300 shadow-md p-8 w-full max-w-lg">
         <h1 className="text-2xl font-bold mb-4 text-black">Login Cliente Porto</h1>

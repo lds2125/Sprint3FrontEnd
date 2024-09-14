@@ -1,4 +1,4 @@
-// src/components/Contato.tsx
+
 import React from 'react';
 
 const Contato: React.FC = () => {
@@ -7,7 +7,7 @@ const Contato: React.FC = () => {
       <section className="bg-white rounded-lg shadow-lg p-8 w-full max-w-4xl">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-8">Entre em Contato</h1>
         <div className="flex flex-col lg:flex-row justify-around items-center mb-8">
-          {/* Informações de Contato */}
+
           <div className="text-center lg:text-left mb-8 lg:mb-0">
             <h2 className="text-2xl font-semibold text-gray-700 mb-4">Informações de Contato</h2>
             <p className="flex items-center text-gray-600 mb-2">
@@ -20,7 +20,7 @@ const Contato: React.FC = () => {
               <span className="mr-2 text-blue-600">📍</span> Rua das Empresas, 123, São Paulo - SP
             </p>
           </div>
-          {/* Formulário de Contato */}
+
           <div className="w-full max-w-md">
             <h2 className="text-2xl font-semibold text-gray-700 mb-4">Envie uma Mensagem</h2>
             <form className="space-y-4">
