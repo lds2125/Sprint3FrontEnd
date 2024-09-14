@@ -1,24 +1,46 @@
-# Logs
-logs
-*.log
+# Diretórios de dependências do Node.js
+node_modules/
+
+# Diretórios de build
+dist/
+out/
+
+# Arquivos de log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Arquivos de lock de pacotes (se você usar apenas um gerenciador de pacotes, mantenha o respectivo lock)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Arquivos de ambiente
+.env
+.env.*.local
+
+# Diretórios e arquivos de IDEs/editores
+.vscode/
+.idea/
+
+# Arquivos de compilação do TypeScript
+*.tsbuildinfo
+
+# Cache de build do Vite
+.vite/
+
+# Cache do TypeScript
+.cache/
+
+# Cache do Jest
+coverage/
+
+# MacOS
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
