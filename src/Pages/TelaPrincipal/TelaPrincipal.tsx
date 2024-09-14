@@ -1,7 +1,7 @@
 import React from 'react';
 import mecanicoImagem from '../../assets/mecanico.png';
 
-function HeroSection() {
+export function HeroSection() {
   return (
     <section className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <h1 className="text-3xl font-bold text-gray-800">Fazer um orçamento nunca foi tão fácil!</h1>

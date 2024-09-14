@@ -14,24 +14,34 @@ const Navbar: React.FC = () => {
           Porto<span className="text-black">Fix</span>
         </Link>
       </div>
-      <div className="flex space-x-4">
-        <Link to="/sobre-nos" className="text-white hover:text-gray-300">
+      
+    
+      <div className="flex space-x-8 ml-auto">
+        <Link 
+          to="/sobre-nos" 
+          className="text-white hover:text-gray-300 transition-colors duration-300 ease-in-out"
+        >
           Sobre nós
         </Link>
-        <Link to="/contato" className="text-white hover:text-gray-300">
+        <Link 
+          to="/contato" 
+          className="text-white hover:text-gray-300 transition-colors duration-300 ease-in-out"
+        >
           Contato
         </Link>
       </div>
-      <div className="flex space-x-2">
+
+      {/* Botões à direita */}
+      <div className="flex space-x-2 ml-auto">
         <Link
           to="/cadastro"
-          className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800"
+          className="bg-blue-700 text-white px-4 py-2 rounded hover:bg-blue-800 transition-all duration-300 ease-in-out"
         >
           Cadastre-se
         </Link>
         <Link
           to="/cliente-porto"
-          className="bg-white text-blue-700 px-4 py-2 rounded hover:bg-gray-200"
+          className="bg-white text-blue-700 px-4 py-2 rounded hover:bg-gray-200 transition-all duration-300 ease-in-out"
         >
           Já sou cliente Porto
         </Link>
