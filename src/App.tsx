@@ -6,7 +6,7 @@ import SobreNos from './Pages/sobreNos/SobreNos';
 import TelaPrincipal from './Pages/telaPrincipal/TelaPrincipal';
 import Cadastro from './Pages/cadastro/cadastro';
 import Navbar from './components/navbar/Navbar';
-import Footer from './components/Footer/Footer';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (

@@ -62,8 +62,8 @@ const Cadastro: React.FC = () => {
   return (
     <div className="flex justify-center items-center h-screen relative bg-white">
       <section className="bg-white rounded-lg border border-[#ddd] shadow-md p-8 w-full max-w-lg relative">
-        <h1 className="text-2xl font-bold mb-2 text-center">Cadastro</h1>
-        <h2 className="text-gray-600 mb-6 text-center text-base sm:text-sm">
+        <h1 className="text-3xl font-bold text-center text-blue-600 mb-8">Cadastro:</h1>
+        <h2 className="text-2xl font-bold mb-4 text-black">
           Preencha com seus dados corretamente para cadastrar-se.
         </h2>
         <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
