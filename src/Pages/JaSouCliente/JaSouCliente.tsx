@@ -16,7 +16,7 @@ const JaSouClientePorto: React.FC = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-white">
       <div className="bg-white rounded-lg border border-gray-300 shadow-md p-8 w-full max-w-lg">
-        <h1 className="text-2xl font-bold mb-4 text-black">Login Cliente Porto</h1>
+        <h1 className="text-2xl font-bold mb-4 text-blue-700 ">Login Cliente Porto</h1>
         <form onSubmit={handleLogin} className="space-y-4">
           <input
             type="email"
