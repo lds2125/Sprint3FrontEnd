@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import { Link } from 'react-router-dom';
 
 const Navbar: React.FC = () => {
@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Botão de menu para telas pequenas */}
-      <div className="lg:hidden">
+      <div className="lg:hidden flex justify-end w-full">
         <button onClick={toggleMenu} className="text-white focus:outline-none">
           <svg
             className="w-6 h-6"
