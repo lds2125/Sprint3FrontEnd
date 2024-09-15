@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
           isOpen ? 'block' : 'hidden'
         } w-full lg:flex lg:items-center lg:w-auto`}
       >
-        <div className="lg:flex lg:space-x-8 mx-auto">
+        <div className="lg:flex lg:space-x-4 mx-auto">
           <Link
             to="/sobre-nos"
             className="block lg:inline-block text-white hover:text-gray-300 transition-colors duration-300 ease-in-out py-2"
@@ -58,14 +58,14 @@ const Navbar: React.FC = () => {
           </Link>
           <Link
             to="/contato"
-            className=" ml-auto block lg:inline-block text-white hover:text-gray-300 transition-colors duration-300 ease-in-out py-2"
+            className="block lg:inline-block text-white hover:text-gray-300 transition-colors duration-300 ease-in-out py-2"
           >
             Contato
           </Link>
         </div>
 
         {/* Botões à direita */}
-        <div className="lg:flex lg:space-x-2 mt-4 lg:mt-0">
+        <div className="lg:flex lg:space-x-4 mt-4 lg:mt-0 lg:ml-8">
           <Link
             to="/cadastro"
             className="block lg:inline-block bg-blue-700 text-white px-4 py-2 rounded hover:bg-white hover:text-blue-700 transition-colors duration-300 ease-in-out"
