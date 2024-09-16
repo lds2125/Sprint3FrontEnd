@@ -12,11 +12,7 @@ const Navbar: React.FC = () => {
     <nav className="bg-blue-600 p-4 flex justify-between items-center sticky top-0 z-50">
       <div className="flex items-center">
         <Link to="/" className="flex items-center">
-          <img
-            src="/PortoFix.png"
-            alt="PortoFix logo"
-            className="w-16 h-16"
-          />
+         
           <span className="text-white text-3xl font-bold ml-3 hover:underline">
             Porto<span className="text-black">Fix</span>
           </span>
