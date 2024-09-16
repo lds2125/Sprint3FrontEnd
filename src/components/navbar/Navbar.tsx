@@ -15,9 +15,9 @@ const Navbar: React.FC = () => {
           <img
             src="/PortoFix.png"
             alt="PortoFix logo"
-            className="w-10 h-10"
+            className="w-16 h-16"
           />
-          <span className="text-white text-2xl font-bold ml-2 hover:underline">
+          <span className="text-white text-3xl font-bold ml-3 hover:underline">
             Porto<span className="text-black">Fix</span>
           </span>
         </Link>
