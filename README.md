@@ -1,25 +1,100 @@
 # PortoFix - 
-    O site conta com 6 páginas sendo elas:
-    - Cadastro
-    - Contato
-    - Sobre Nós(pagina dos integrantes)
-    - Tela Principal(inicial)
-    - Tela de Login(Já sou cliente Porto)
+      
+# Frontend da Aplicação de Gerenciamento de Tarefas (Sprint 4)
+
+Este repositório contém o código frontend para uma aplicação de gerenciamento de tarefas.  Ele foi desenvolvido durante a Sprint 4, embora utilize o repositório da Sprint 3 como base.
+
+## Funcionalidades
+
+* **Cadastro de Usuário:** Permite que novos usuários se cadastrem na plataforma.
+* **Login:** Permite que usuários cadastrados acessem a aplicação.
+* **Gerenciamento de Tarefas:**  Oferece funcionalidades para criar, editar, visualizar e excluir tarefas.
+* **[Outras funcionalidades presentes, descreva aqui. Ex: Filtro de tarefas por status, atribuição de tarefas a usuários, etc.]**
+
+
+## Tecnologias Utilizadas
+
+* **React:** Biblioteca TypeScript para construção de interfaces de usuário.
+* **HTML:** Linguagem de marcação para estruturação do conteúdo.
+* **CSS:** Linguagem de estilo para a apresentação visual.
+* **TypeScript:** Linguagem de programação para a lógica da aplicação.
+
+## Configuração do Ambiente de Desenvolvimento
+
+1. **Clone o repositório:**
+```bash
+git clone https://github.com/lds2125/Sprint3FrontEnd.git
+
     
-    Conta também com um Footer e um NavBar(Header) na pasta de componentes.
 
-Página de Cadastro:
-- Nesta pagina nós utilizamos muito dos conceitos passados em aula para realizar a validação dos dados passados pelo usuário.
+Use code with caution.Markdown
 
-Página de Contato:
-- Página simples para mostrar ao usuário informações para contato com PortoFix e uma área para envio de mensagens para a empresa.
+    Navegue até o diretório do projeto:
 
-Página Sobre Nós(pagina dos integrantes):
-- Página obrigatória contendo fotos dos integrantes e um textos simples sobre a PortoFix.
+      
+cd Sprint3FrontEnd
 
-Página Tela Principal(inicial):
-- 
-
-Página Tela de Login(Já sou cliente Porto):
-- Tela onde o usuário terá acesso as últimas notificações sobre seu carro e um mapa para localizar a seguradora credenciada mais próxima, e no futuro irá pode usar a IA desenvolvida pelo grupo.
     
+
+Use code with caution.Bash
+
+    Instale as dependências:
+
+      
+npm install
+
+    
+
+Use code with caution.Bash
+
+ou
+
+      
+yarn install
+
+    
+
+Use code with caution.Bash
+
+    Inicie a aplicação:
+
+      
+npm start
+
+    
+
+Use code with caution.Bash
+
+ou
+
+      
+yarn start
+
+    
+
+Use code with caution.Bash
+
+A aplicação estará disponível em http://localhost:3000 (ou em outra porta, caso configurada diferentemente).
+Estrutura do Projeto
+
+      
+Sprint3FrontEnd/
+├── src/                # Código fonte da aplicação
+│   ├── components/      # Componentes React
+│   ├── App.js           # Componente principal
+│   ├── index.js         # Ponto de entrada da aplicação
+│   ├── [outros arquivos e pastas]
+│   └── ...
+├── public/             # Arquivos estáticos
+│   ├── index.html       # Arquivo HTML principal
+│   └── ...
+├── package.json         # Arquivo de configuração do projeto
+├── [outros arquivos de configuração. Ex: .gitignore, README.md, webpack.config.js etc]
+└── ...
+
+    
+
+Use code with caution.
+Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
