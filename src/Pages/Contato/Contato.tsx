@@ -7,7 +7,7 @@ const Contato: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 p-4">
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100 p-4 max-h-[100vh]">
       <section className="bg-white rounded-lg shadow-lg p-8 w-full max-w-4xl">
         <h1 className="text-3xl font-bold text-center text-blue-600 mb-8">Entre em Contato:</h1>
         <div className="flex flex-col lg:flex-row justify-around items-center mb-8">
@@ -24,7 +24,6 @@ const Contato: React.FC = () => {
               <span className="mr-2 text-blue-600">📍</span> Rua das Empresas, 123, São Paulo - SP
             </p>
           </div>
-
           <div className="w-full max-w-md">
             <h2 className="text-2xl font-semibold  text-black mb-4">Envie uma Mensagem</h2>
             <form className="space-y-4" onSubmit={handleSubmit}>
@@ -56,6 +55,7 @@ const Contato: React.FC = () => {
           </div>
         </div>
       </section>
+      
     </div>
   );
 };

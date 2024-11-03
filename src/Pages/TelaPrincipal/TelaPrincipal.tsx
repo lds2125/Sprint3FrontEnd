@@ -1,9 +1,10 @@
 import React from 'react';
 import mecanicoImagem from '../../assets/mecanico.png';
+import Footer from '../../components/Footer/Footer';
 
 export function HeroSection() {
   return (
-    <section className="relative flex items-center justify-center min-h-[100vh] bg-gray-100 overflow-hidden">
+    <section className="relative flex items-center justify-center max-h-[100vh] bg-gray-100 overflow-hidden">
       {/* Texto sobreposto à imagem */}
       <div className="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-center px-4">
         <h1 className="text-5xl font-bold text-white">Fazer um orçamento nunca foi tão fácil!</h1>
