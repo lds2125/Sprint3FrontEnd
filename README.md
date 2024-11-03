@@ -89,12 +89,3 @@ Sprint3FrontEnd/
 │   ├── index.html       # Arquivo HTML principal
 │   └── ...
 ├── package.json         # Arquivo de configuração do projeto
-├── [outros arquivos de configuração. Ex: .gitignore, README.md, webpack.config.js etc]
-└── ...
-
-    
-
-Use code with caution.
-Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
