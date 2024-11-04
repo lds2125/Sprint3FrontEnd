@@ -1,4 +1,4 @@
-# PortoFix - LINK VERCEL: https://vercel.com/joaos-projects-43546f4f/sprint3-front-end/8RgWJwTXi2rHjCxD54kY5f7uuCo7
+# PortoFix - 
       
 # Frontend da Aplicação de Gerenciamento de Tarefas (Sprint 4)
 
